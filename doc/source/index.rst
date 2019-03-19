@@ -25,7 +25,7 @@ Projects
     - `Seldon Core Technical Documentation`_
 
 .. _Seldon Core on GitHub: https://github.com/SeldonIO/seldon-core
-.. _Seldon Core Technical Documentation: https://seldon.readthedocs.io/projects/seldon-core/en/latest/    
+.. _Seldon Core Technical Documentation: https://docs.seldon.io/projects/seldon-core/en/latest/    
 
 .. toctree::
    :maxdepth: 2
