@@ -19,10 +19,13 @@ Seldon provides a set of tools for deploying machine learning models at scale.
 Projects
 --------
 
-  - `Seldon Core - machine learning deployment on Kubernetes`_
-
-.. _Seldon Core - machine learning deployment on Kubernetes: https://github.com/SeldonIO/seldon-core
+  - Seldon Core machine learning deployment on Kubernetes
     
+    - `Seldon Core on GitHub`_
+    - `Seldon Core Technical Documentation`_
+
+.. _Seldon Core on GitHub: https://github.com/SeldonIO/seldon-core
+.. _Seldon Core Technical Documentation: https://seldon.readthedocs.io/projects/seldon-core/en/latest/    
 
 .. toctree::
    :maxdepth: 2
