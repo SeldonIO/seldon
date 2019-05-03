@@ -23,9 +23,16 @@ Projects
     
     - `Seldon Core on GitHub`_
     - `Seldon Core Technical Documentation`_
+    
+  - Alibi: Algorithms for monitoring and explaining machine learning models
+  
+    - `Alibi on Github`_
+    - `Alibi Documentation`_
 
 .. _Seldon Core on GitHub: https://github.com/SeldonIO/seldon-core
 .. _Seldon Core Technical Documentation: https://docs.seldon.io/projects/seldon-core/en/latest/    
+.. _Alibi on Github: https://github.com/SeldonIO/alibi
+.. _Alibi Documentation: https://docs.seldon.io/projects/alibi/en/latest/    
 
 .. toctree::
    :maxdepth: 2
