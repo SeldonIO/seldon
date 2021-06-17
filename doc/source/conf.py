@@ -62,9 +62,6 @@ master_doc = 'index'
 # Usually you set "language" from the command line for these cases.
 language = None
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -85,25 +82,30 @@ if html_theme == "sphinx_material":
         "color_primary": "indigo",
         "color_accent": "teal",
         "repo_url": "https://github.com/SeldonIO/seldon-core",
-        "repo_name": "Seldon Core",
-        "nav_title": "Seldon Open Source Projects",
+        "repo_name": "Seldon Documentation",
+        "nav_title": "Seldon Documentation Homepage",
         "globaltoc_depth": 4,
         "globaltoc_collapse": True,
         "globaltoc_includehidden": False,
         "repo_type": "github",
         "nav_links": [
             {
-                "href": "https://github.com/SeldonIO/seldon-core",
+                "href": "https://docs.seldon.io/projects/seldon-core/en/latest/",
+                "internal": False,
+                "title": "🚀 Our Other Projects & Products:",
+            },
+            {
+                "href": "https://docs.seldon.io/projects/seldon-core/en/latest/",
                 "internal": False,
                 "title": "Seldon Core",
             },
             {
-                "href": "https://github.com/SeldonIO/alibi",
+                "href": "https://docs.seldon.io/projects/alibi/en/stable/",
                 "internal": False,
                 "title": "Alibi Explain",
             },
             {
-                "href": "https://github.com/SeldonIO/alibi-detect",
+                "href": "https://docs.seldon.io/projects/alibi-detect/en/stable/",
                 "internal": False,
                 "title": "Alibi Detect",
             },
@@ -113,9 +115,19 @@ if html_theme == "sphinx_material":
                 "title": "MLServer",
             },
             {
-                "href": "https://github.com/SeldonIO/tempo",
+                "href": "https://tempo.readthedocs.io/en/latest/",
                 "internal": False,
                 "title": "Tempo SDK",
+            },
+            {
+                "href": "https://deploy.seldon.io/docs/about/",
+                "internal": False,
+                "title": "Seldon Deploy (Enterprise)",
+            },
+            {
+                "href": "https://github.com/SeldonIO/seldon-deploy-sdk#seldon-deploy-sdk",
+                "internal": False,
+                "title": "Seldon Deploy SDK (Enterprise)",
             },
         ],
     }
@@ -126,7 +138,15 @@ if html_theme == "sphinx_material":
 
 html_sidebars = {"**": ["logo-text.html", "globaltoc.html", "localtoc.html"]}
 
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+html_static_path = ["_static"]
 
+# override default theme width
+html_context.update({
+    "css_files": ["_static/theme_overrides.css",],  # override wide tables in RTD theme
+})
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

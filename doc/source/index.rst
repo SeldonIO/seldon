@@ -14,33 +14,62 @@ Seldon provides a set of tools for deploying machine learning models at scale.
 
 |
 
-Projects
---------
+Projects & Products
+####################
 
-Seldon Core machine learning deployment on Kubernetes
+Seldon Core
+***********
+
+An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models
 
 - `Seldon Core on GitHub`_
 - `Seldon Core Technical Documentation`_
 
-Alibi Explain: Algorithms for AI Explainability for machine learning models
+Alibi Explain
+***********
+
+Algorithms for AI Explainability for machine learning models
 
 - `alibi on Github`_
 - `alibi Documentation`_
 
-Alibi Detect: Algorithms for outlier detection, concept drift and metrics
+Alibi Detect
+***********
+
+Algorithms for outlier detection, concept drift and metrics
 
 - `alibi-detect on Github`_
 - `alibi-detect Documentation`_
 
-Tempo: MLOps SDK for accelerating data science experimentation with Seldon Core and KFserving
+Tempo
+***********
+
+MLOps SDK for accelerating data science experimentation with Seldon Core and KFserving
 
 - `Tempo on Github`_
 - `Tempo Documentation`_
 
-MLServer: High performance ayncio machine learning model server for Seldon and KFserving
+MLServer
+***********
+
+High performance ayncio machine learning model server for Seldon and KFserving
 
 - `MLServer on Github`_
 
+Seldon Deploy
+***********
+
+Enterprise platform that introduces advanced management, monitoring and explainability to open source stack
+
+- `Seldon Deploy Documentation`_
+- `Seldon Deploy Trial Overview`_
+
+Seldon Deploy SDK
+***********
+
+Enterprise SDK that provides a Pythonic way to interact with the Seldon Deploy Enterprise API
+
+- `Seldon Deploy SDK on Github`_
 
 
 
@@ -56,6 +85,11 @@ MLServer: High performance ayncio machine learning model server for Seldon and K
 .. _Tempo Documentation: https://tempo.readthedocs.io/en/latest/    
 
 .. _MLServer on Github: https://github.com/SeldonIO/MLServer
+
+.. _Seldon Deploy Documentation: https://deploy.seldon.io/docs/about/
+.. _Seldon Trial Overview: https://www.seldon.io/exec/products/deploy/
+
+.. _Seldon Deploy SDK on Github: https://github.com/SeldonIO/seldon-deploy-sdk
 
 .. toctree::
    :maxdepth: 2
