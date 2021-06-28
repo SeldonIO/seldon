@@ -138,16 +138,6 @@ if html_theme == "sphinx_material":
 
 html_sidebars = {"**": ["logo-text.html", "globaltoc.html", "localtoc.html"]}
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
-html_static_path = ["_static"]
-
-# override default theme width
-html_context.update({
-    "css_files": ["_static/theme_overrides.css",],  # override wide tables in RTD theme
-})
-
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
