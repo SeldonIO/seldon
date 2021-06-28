@@ -86,8 +86,8 @@ Enterprise SDK that provides a Pythonic way to interact with the Seldon Deploy E
 
 .. _MLServer on Github: https://github.com/SeldonIO/MLServer
 
-.. _Seldon Deploy Documentation: https://deploy.seldon.io/docs/about/
-.. _Seldon Trial Overview: https://www.seldon.io/exec/products/deploy/
+.. _Seldon Deploy Documentation: https://deploy.seldon.io
+.. _Seldon Deploy Trial Overview: https://www.seldon.io/exec/products/deploy/
 
 .. _Seldon Deploy SDK on Github: https://github.com/SeldonIO/seldon-deploy-sdk
 
