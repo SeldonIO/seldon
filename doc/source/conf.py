@@ -77,7 +77,7 @@ html_theme = "sphinx_material"
 
 if html_theme == "sphinx_material":
     html_theme_options = {
-        "google_analytics_account": "",
+        "google_analytics_account": "UA-54780881-2",
         "base_url": "https://docs.seldon.io/",
         "color_primary": "indigo",
         "color_accent": "teal",
