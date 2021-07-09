@@ -110,7 +110,7 @@ if html_theme == "sphinx_material":
                 "title": "Alibi Detect",
             },
             {
-                "href": "https://github.com/SeldonIO/mlserver",
+                "href": "https://mlserver.readthedocs.io/en/latest/",
                 "internal": False,
                 "title": "MLServer",
             },
