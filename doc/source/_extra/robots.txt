@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /projects/seldon-core/en/latest/
+Allow: /projects/alibi/en/latest/
+Allow: /projects/alibi-detect/en/latest/
+Allow: /$
+Disallow: / 
+
+Sitemap: https://docs.seldon.io/sitemap.xml

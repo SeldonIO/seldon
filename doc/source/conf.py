@@ -136,6 +136,8 @@ if html_theme == "sphinx_material":
     html_theme_path = sphinx_material.html_theme_path()
     html_context = sphinx_material.get_html_context()
 
+html_extra_path = ["_extra"]
+
 html_sidebars = {"**": ["logo-text.html", "globaltoc.html", "localtoc.html"]}
 
 # Custom sidebar templates, must be a dictionary that maps document names
