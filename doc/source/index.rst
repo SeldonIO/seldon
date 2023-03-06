@@ -55,6 +55,7 @@ MLServer
 High performance ayncio machine learning model server for Seldon and KFserving
 
 - `MLServer on Github`_
+- `MLServer Documentation`_
 
 Seldon Deploy
 ***********
@@ -85,6 +86,7 @@ Enterprise SDK that provides a Pythonic way to interact with the Seldon Deploy E
 .. _Tempo Documentation: https://tempo.readthedocs.io/en/latest/    
 
 .. _MLServer on Github: https://github.com/SeldonIO/MLServer
+.. _MLServer Documentation: https://mlserver.readthedocs.io/en/latest/
 
 .. _Seldon Deploy Documentation: https://deploy.seldon.io
 .. _Seldon Deploy Trial Overview: https://www.seldon.io/exec/products/deploy/
